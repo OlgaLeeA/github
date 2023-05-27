@@ -6,7 +6,7 @@
     - name: Deploy WebUI container
       docker_container:
         name: webui
-        image: deatend/webui:latest
+        image: deatend/ansible:doc
         state: started
         recreate: yes
         ports:
